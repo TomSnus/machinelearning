@@ -47,8 +47,8 @@ for i, clf in enumerate((svc, lin_svc, rbf_svc, poly_svc)):
 
     # Plot also the training points
     plt.scatter(X[:, 0], X[:, 1], c=y, cmap=plt.cm.coolwarm)
-    plt.xlabel('Sepal length')
-    plt.ylabel('Sepal width')
+    plt.xlabel('length')
+    plt.ylabel('width')
     plt.xlim(xx.min(), xx.max())
     plt.ylim(yy.min(), yy.max())
     plt.xticks(())
